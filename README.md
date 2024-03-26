@@ -1,70 +1,45 @@
 <div align="center">
 
-# 原神抽卡模拟器
+# 原神抽卡模拟器 网页版
+<h2>需要搭配web服务器 或 Cloudflare Pages使用</h2>
 
-[文档](http://docs.mznet.pro)·[下载](https://github.com/cyanial/genshin-impact-picker/releases/latest)
+![原神点名器](https://stats.deeptrain.net/repo/zhou-hack/GachaPicker/?theme=dark)
 
-![原神点名器](https://stats.deeptrain.net/repo/cyanial/genshin-impact-picker/?theme=light)
+> 感谢 [Genshin-Impact-Picker](https://github.com/cyanial/genshin-impact-picker) 的 作者 [cyanial](https://github.com/cyanial) 提供修改版
 
-</div>
-
-[![发布状态](https://github.com/cyanial/genshin-impact-picker/actions/workflows/release.yml/badge.svg)](https://github.com/cyanial/genshin-impact-picker/actions/workflows/release.yml) [![页面状态](https://github.com/cyanial/genshin-impact-picker/actions/workflows/page.yml/badge.svg)](https://github.com/cyanial/genshin-impact-picker/actions/workflows/page.yml) [![应用构建状态](https://github.com/cyanial/genshin-impact-picker/actions/workflows/app.yml/badge.svg)](https://github.com/cyanial/genshin-impact-picker/actions/workflows/app.yml)
-
-## 注意
-
-> 感谢 [Genshin-Impact-Wish-Simulator](https://github.com/Mantan21/Genshin-Impact-Wish-Simulator) 作者的[批准](https://github.com/Mantan21/Genshin-Impact-Wish-Simulator/issues/95)。
+> [原README](./PREADME.md) 
 
 ## 使用方法
 
 >以下任一方式完成后，请查看[配置教程](http://docs.mznet.pro/users/configure)
 
-### 应用程序(推荐)
+### 自行搭建(推荐)
 
-从[github release](https://github.com/cyanial/genshin-impact-picker/releases/latest)中按照发行说明来获取对应系统的程序包即可
+从[Github](https://github.com/zhou-hack/GachaPicker)中下载ZIP或使用git clone获取源码包<br/>
+并使用 [Nginx](https://nginx.org) / [Apache](https://httpd.apache.org/download.cgi) 等web服务端进行搭建
+
+### Cloudflare搭建
+获取[web源码包](https://github.com/zhou-hack/GachaPicker) 导入[Cloudflare Pages](https://pages.cloudflare.com/)进行搭建
+
 
 ### 公共站点
 
-> 尽量先使用应用程序，站点可能存在网络波动
-
-> 欢迎大家在不影响正常使用的情况下，分享自己部署的点名器站点，以供大家共同使用：
-
 1. [dm.mznet.pro](https://dm.mznet.pro)
-  > 本站点使用Cloudflare减速器，可能会有一定的访问延迟，请保持耐心。我将尽力保持长期运营。
 2. [genshin.jerryz.com.cn](https://genshin.jerryz.com.cn/)
 3. [demo-picker.shawn404.top](https://demo-picker.shawn404.top)
 
-更多的公共站点可在[文档：公共站点](http://docs.mznet.pro/users/public)中查看
+更多的公共站点可在原作者 [文档：公共站点](http://docs.mznet.pro/users/public) 中查看
 
 ## 更多
 
-更多的使用方法及开发文档可在[这里](http://docs.mznet.pro)查看
+更多的使用方法及开发文档可在原作者开发文档 [这里](http://docs.mznet.pro) 查看
 
 ## 许可证
 
-本项目采用 `CC BY-NC-SA 4.0` 许可证，不得用于商业用途。
+本项目采用 `MIT` 许可证
 
-### 原仓库许可证：WishSimulator（MIT 许可证）
+### 原仓库(原神抽卡点名)许可证: genshin-impact-picker (CC BY-NC-SA 4.0 许可证)
+[CC BY-NC-SA 4.0](./CC_BY-NC-SA_4.0)
 
-```
-MIT License
-
-Copyright (c) 2022 WishSimulator
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+### 原仓库(原神抽卡模拟器)许可证: WishSimulator（MIT 许可证）
+[MIT License](./MIT)
