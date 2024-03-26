@@ -24,9 +24,9 @@
 
 ### 公共站点
 
-1. [dm.mznet.pro](https://dm.mznet.pro)
-2. [genshin.jerryz.com.cn](https://genshin.jerryz.com.cn/)
-3. [demo-picker.shawn404.top](https://demo-picker.shawn404.top)
+[dm.mznet.pro](https://dm.mznet.pro)
+[genshin.jerryz.com.cn](https://genshin.jerryz.com.cn/)
+[demo-picker.shawn404.top](https://demo-picker.shawn404.top)
 
 更多的公共站点可在原作者 [文档：公共站点](http://docs.mznet.pro/users/public) 中查看
 
