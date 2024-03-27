@@ -7,7 +7,9 @@
 
 > 感谢 [Genshin-Impact-Picker](https://github.com/cyanial/genshin-impact-picker) 的 作者 [cyanial](https://github.com/cyanial) 提供修改版
 
-> [原README](./PREADME.md) 
+> [原项目](https://github.com/cyanial/genshin-impact-picker)
+
+> [原README](./PREADME.md)
 
 ## 使用方法
 
@@ -41,4 +43,4 @@
 [CC BY-NC-SA 4.0](./CC_BY-NC-SA_4.0)
 
 ### 原仓库(原神抽卡模拟器)许可证: WishSimulator（MIT 许可证）
-[MIT License](./MIT)
+[MIT License](./MIT_WishSimulator)
